@@ -1,0 +1,10 @@
+/.bundle
+/.ruby-version
+/spec/fixtures/.librarian
+/spec/fixtures/.tmp
+/spec/fixtures/modules/boxen/
+/spec/fixtures/modules/homebrew/
+/spec/fixtures/modules/repository/
+/spec/fixtures/modules/stdlib/
+/spec/fixtures/Puppetfile.lock
+/spec/fixtures/vendor
