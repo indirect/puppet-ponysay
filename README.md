@@ -9,9 +9,9 @@
 include ponysay
 
 # (Optional) Install fortune and horse_ebooks fortunes file
-include fortune::horse_ebooks
+include ponysay::horse_fortunes
 # OR install just fortune
-include fortune
+include ponysay::fortune
 ```
 
 Then, after running boxen, you can do this:
