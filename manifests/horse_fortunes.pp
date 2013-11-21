@@ -1,4 +1,5 @@
 class ponysay::horse_fortunes {
+  require ponysay
   require ponysay::fortune
 
   $fortunes = "/opt/boxen/homebrew/share/games/fortunes"
