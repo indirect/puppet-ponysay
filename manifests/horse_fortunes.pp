@@ -6,7 +6,7 @@ class ponysay::horse_fortunes {
 
   exec { 'horse_ebooks':
     cwd     => $fortunes,
-    command => "curl -o horse_ebooks http://horsefortun.es/fortune",
+    command => "curl -o horse_ebooks -L http://files.arko.net/1u3d360l1Y2O/horse_ebooks",
     unless  => "test -e $fortunes/horse_ebooks"
   }
 
